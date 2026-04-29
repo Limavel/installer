@@ -3,7 +3,7 @@ set -e
 
 INSTALL_DIR="${HOME}/.local/bin"
 BINARY_NAME="limavel"
-DOWNLOAD_URL="https://github.com/Limavel/limavel/releases/latest/download/limavel"
+DOWNLOAD_URL="https://github.com/Limavel/limavel/releases/download/0.9.2/limavel"
 
 # Check macOS
 if [ "$(uname -s)" != "Darwin" ]; then
